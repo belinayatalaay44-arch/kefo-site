@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitanem'e</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  <div class="stars"></div>
+<button id="musicButton" onclick="toggleMusic()">
+  🎵 müziği aç
+</button>
+
+<audio id="music" loop>
+  <source src="https://cdn.imageurlgenerator.com/uploads/a930044c-2ed7-44f2-a03b-eff174965fab.mp4" type="audio/mp4">
+</audio>
+  <main>
+<section class="intro-screen active" id="intro">
+
+  <div class="intro-photo">
+    <img
+<img
+  src="https://raw.githubusercontent.com/belinayatalaay44-arch/kefo-site/refs/heads/main/phonto.png"
+  </div>
+
+  <div class="intro-decor decor-one">♡</div>
+  <div class="intro-decor decor-two">✦</div>
+  <div class="intro-decor decor-three">♡</div>
+  <div class="intro-decor decor-four">✦</div>
+
+  <button class="enter-button" onclick="enterSite()">♡</button>
+
+</section>
+    <section class="screen">
+      <p class="small">her şeyin en güzelini hak eden, bitanem'e.</p>
+      <h1>Kefo'm🤍</h1>
+
+      <p class="message">
+         İnsanın hayatına biri beklemediği anda girer ve daha öncesinde hiç yaşamıyormuşta onunla nefes almış gibi hissettirir. 
+      </p>
+
+      <button onclick="goTo('love')">devam et 🖤</button>
+    </section>
+
+<section class="screen" id="love">
+
+  <p class="small">Ve bana bunu yaşatan da sensin, senin benim hayatıma girmen benim için dönüm noktasıydı. </p>
+
+  <h2>İyi ki varsın güzelim.</h2>
+<img
+  <img
+  src="https://raw.githubusercontent.com/belinayatalaay44-arch/kefo-site/refs/heads/main/IMG_3682.jpeg"
+  alt="güzelim ile 🖤"
+  class="love-photo"
+  style="width: 190px !important; height: 240px !important; max-width: 190px !important; max-height: 240px !important; object-fit: cover; display: block; margin: 15px auto 20px;"
+    <p>Seninle konuşmak.</p>
+    <p>Seninle gülmek.</p>
+    <p>En saçma şeyleri bile beraber eğlenceli hale getirmek.</p>
+
+    <div class="heart">♡</div>
+
+    <p class="special">
+      Ve bütün bunların arasında<br>
+      seni hayatımda bulmuş olmak çok özel hissettiriyor.
+    </p>
+
+  </div>
+
+  <button onclick="goTo('question')">
+    devam et 🖤
+  </button>
+
+</section>
+   
+
+    <section class="screen" id="question">
+
+  <p class="small">son bir şey...</p>
+
+  <div class="final-heart">♡</div>
+
+  <h2>Ben seni hayatımda uzun vakitler boyunca görmek istiyorum, senin bana ait olmanı, kendimi de tüm benliğimle sana adamayı istiyorum. Benim sevgilim olur musun bitanem?</h2>
+
+  <p class="message">
+    İkimizin de bunu uzun zamandır beklediğinin farkındayım ve sana layık bir şey yapmak için çok düşündüm, güzelliğim.
+  </p>
+
+  <div class="buttons">
+    <button onclick="yes()">EVET 🖤</button>
+    <button onclick="no()">hayır</button>
+  </div>
+
+  <p id="answer"></p>
+
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
